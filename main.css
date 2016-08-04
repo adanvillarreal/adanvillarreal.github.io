@@ -1,0 +1,162 @@
+/* CSS declarations go here */
+body{
+  font-family: quark;
+}
+ext{
+  font-family: 'Ubuntu Monospace', monospace;
+  text-align: center;
+  font-size: 150%;
+}
+ext2{
+  font-family: 'Ubuntu Monospace', monospace;
+  font-size: 120%;
+}
+p{
+  text-align: justify;
+}
+a{
+  color: gray;
+}
+a:hover {
+  font-weight: lighter;
+  color: black;
+}
+a:visited{
+  font-weight: lighter;
+  color: black;
+}
+a:active{
+  color: black;
+  font-weight: lighter;
+}
+h4{
+  font-weight: bold;
+  font-style: italic;
+}
+footer{
+  margin-top: 60px;
+  padding-top: : 150px;
+  padding-bottom: 60px;
+  height: 20%;
+  background-color: gray;
+}
+.footnote{
+  padding-top: 100px;
+  color: white;
+  text-align: center;
+}
+.first{
+  margin-top: 5%
+}
+.home {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: gray;
+  margin-left: 5%;
+  margin-top:5;
+  display: table;
+  table-layout: fixed;
+
+}
+about{
+  text-align: center;
+  position: center;
+}
+.dis-table{
+  background-color: gray;
+  height: 100vh;
+  width: 100vw;
+  display: table;
+  table-layout: fixed;
+}
+.dis-text{
+
+  display: table-cell;
+  vertical-align: top;
+  float: none;
+
+
+}
+
+.indx{
+  height: 100vh;
+}
+
+#HiText{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+  .affix {
+       top: 0;
+       width: 100%;
+   }
+
+   .affix + .container-fluid {
+       padding-top: 70px;
+   }
+land {
+  font-size: 7em;
+  font-family: 'Ubuntu Monospace', monospace;
+  font-stretch: ultra-expanded;
+  color: white;
+}
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+ .navbar .navbar-nav {
+     display: inline-block;
+     float: none;
+     height: 10px;
+ }
+
+ .navbar .navbar-collapse {
+     text-align: center;
+     height: 10px;
+
+ }
+.navbar{
+  text-align: center;
+  z-index: 9;
+  background-color: white;
+  border-color: white;
+  border-bottom-color: black;
+  height: 10px;
+
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
+of those sections to manage the look and feel of the site. */
+
+.intro-section {
+    height: 50%;
+    padding-top: 150px;
+    text-align: center;
+    background-color: : #fff;
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+.services-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
