@@ -13,32 +13,51 @@ ext2{
 }
 p{
   text-align: justify;
+  font-size: 16px;
 }
-a{
-  color: gray;
+.sec{
+  padding-top: 50px;
+}
+a:visited, a:link{
+  font-weight: lighter;
+  color: grey;
 }
 a:hover {
   font-weight: lighter;
   color: black;
 }
-a:visited{
-  font-weight: lighter;
-  color: black;
+.nav > li > a:hover{
+    font-weight: bold;
+    background-color: transparent;
 }
 a:active{
   color: black;
   font-weight: lighter;
 }
+a{
+  color: gray;
+}
 h4{
   font-weight: bold;
   font-style: italic;
 }
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
 footer{
   margin-top: 60px;
-  padding-top: : 150px;
   padding-bottom: 60px;
   height: 20%;
-  background-color: gray;
+  border-color: black;
+  background-color: white;
 }
 .footnote{
   padding-top: 100px;
@@ -159,4 +178,3 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
     background: #eee;
 }
-
