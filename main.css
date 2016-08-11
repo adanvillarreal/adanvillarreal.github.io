@@ -1,12 +1,33 @@
 /* CSS declarations go here */
+@font-face{
+  font-family: quark;
+  src: url('Quark/Quark-Light.otf');
+}
+
+@font-face{
+  font-family: quark;
+  font-weight: bold;
+  src: url('Quark/Quark-Bold.otf');
+}
+
+}
+#back{
+  position: absolute;
+  z-index: -5;
+}
 body{
   font-family: quark;
+/*  background-image: url(codehtml.png); */
+}
+.col{
+  background: white;
 }
 ext{
   font-family: 'Ubuntu Monospace', monospace;
   text-align: center;
   font-size: 150%;
 }
+
 ext2{
   font-family: 'Ubuntu Monospace', monospace;
   font-size: 120%;
